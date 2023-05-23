@@ -237,13 +237,17 @@ def main(
     if st.button("Нажми кнопку! Там ешё пару сюрпризов."):
         
         
-      
-       
-        st.balloons()
+        st.snow()  
+        time.sleep(3)
+        st.snow()  
+        time.sleep(3)
+    
+    
+        #st.balloons()
         st_player("https://soundcloud.com/ahmed-mano-5/eminem_im-not-afraid")
-        time.sleep(2.5)
-        st.balloons()
-        time.sleep(2.5)
+        #time.sleep(2.5)
+        #st.balloons()
+        #time.sleep(2.5)
         st.balloons()
        
 
